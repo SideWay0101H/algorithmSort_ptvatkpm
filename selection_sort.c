@@ -15,10 +15,10 @@ void Swap(recordtype *x,recordtype *y){
 void selectionSort(recordtype a[],int n){
     int i,j,low_index;
     keytype low_key;
-		for(i=0;i<n-2;i++){
+		for(i=0;i<=n-2;i++){
 			low_index = i;
 	        low_key = a[i].key;
-			for(j=i+1;j<n-1;j++){
+			for(j=i+1;j<=n-1;j++){
 				if(a[j].key < low_key){
 				     low_key = a[j].key;
 					 low_index = j;	
